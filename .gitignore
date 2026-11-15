@@ -12,3 +12,7 @@ __pycache__/
 # Local settings
 .streamlit/
 .vscode/
+
+# Keep the full Word report locally only
+/docs/DecisionTrace_AI_Comprehensive_Project_Report.docx
+/docs/dashboard decision trace ai ss.png
