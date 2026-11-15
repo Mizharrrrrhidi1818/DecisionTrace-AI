@@ -101,6 +101,25 @@ NovaTech Solutions.
 The data is synthetic and created for
 demonstration purposes.
 
+## Dashboard Results
+
+DecisionTrace AI was tested locally using a Streamlit
+dashboard.
+
+The application demonstrates:
+- AI-generated answers using RAG and LLM integration
+- Retrieval of relevant meeting documents
+- Source references for generated answers
+- Identification of updated decisions and deadlines
+
+### Dashboard Demonstration
+
+[View DecisionTrace AI Dashboard Results (PDF)](docs/dashboard%20of%20DecisionTrace%20ai.pdf)
+
+**Note:** This project includes a PDF demonstration rather
+than a publicly hosted dashboard. The Streamlit application
+can be launched locally using the instructions below.
+
 ## Limitations
 
 - Small sample dataset
