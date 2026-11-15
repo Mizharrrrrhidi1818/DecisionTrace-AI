@@ -1,0 +1,25 @@
+Company: NovaTech Solutions
+Meeting Date: 2026-11-13
+Meeting Type: Launch Readiness Meeting
+
+Participants:
+- Sarah - Project Manager
+- Daniel - Lead Developer
+- Emma - QA Engineer
+
+Discussion:
+Daniel confirmed that the payment integration issue required additional development.
+Emma explained that full payment testing would require additional time.
+Sarah reviewed the project risks and proposed postponing the launch.
+
+Decisions:
+1. Sarah approved postponing the website launch.
+2. The previous launch date of November 20, 2026 was cancelled.
+3. The new website launch date is November 27, 2026.
+4. Daniel remains responsible for completing payment integration.
+5. Emma remains responsible for final QA testing.
+6. Sarah is responsible for coordinating the revised launch.
+
+Status:
+The website launch postponement was approved.
+The new official launch date is November 27, 2026.

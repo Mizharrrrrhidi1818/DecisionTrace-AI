@@ -1,0 +1,24 @@
+Company: NovaTech Solutions
+Meeting Date: 2026-11-11
+Meeting Type: Development Progress Review
+
+Participants:
+- Sarah - Project Manager
+- Daniel - Lead Developer
+- Emma - QA Engineer
+
+Discussion:
+Daniel reported that the website payment integration was incomplete.
+The payment gateway API was returning intermittent errors.
+Emma explained that payment testing could not be completed until the issue was resolved.
+Sarah requested an updated development timeline.
+
+Decisions:
+1. Daniel will investigate and fix the payment integration issue.
+2. Emma will resume payment testing after the fix.
+3. The team will review launch readiness on Friday.
+
+Status:
+Payment integration is blocked.
+The original November 20 launch date is at risk.
+No new launch date has been approved.
