@@ -1,6 +1,14 @@
 # DecisionTrace AI
 
 ### AI-Powered Meeting Decision & Commitment Intelligence
+[![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D6)
+![LLM](https://img.shields.io/badge/AI-LLM-blueviolet)
+![RAG](https://img.shields.io/badge/Architecture-RAG-success)
+![Embeddings](https://img.shields.io/badge/Embeddings-SentenceTransformers-orange)
+![Framework](https://img.shields.io/badge/Framework-Streamlit-FF4B4B)
+![API](https://img.shields.io/badge/LLM_API-OpenRouter-purple)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 DecisionTrace AI is a Retrieval-Augmented Generation
 (RAG) application that helps teams retrieve decisions,
