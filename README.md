@@ -1,6 +1,13 @@
 # DecisionTrace AI
 
 ### AI-Powered Meeting Decision & Commitment Intelligence
+[![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D6)
+![LLM](https://img.shields.io/badge/AI-LLM-blueviolet)
+![RAG](https://img.shields.io/badge/Architecture-RAG-success)
+![Embeddings](https://img.shields.io/badge/Embeddings-SentenceTransformers-orange)
+![Framework](https://img.shields.io/badge/Framework-Streamlit-FF4B4B)
+![API](https://img.shields.io/badge/LLM_API-OpenRouter-purp
 
 DecisionTrace AI is a Retrieval-Augmented Generation
 (RAG) application that helps teams retrieve decisions,
@@ -16,53 +23,32 @@ DecisionTrace AI retrieves relevant meeting evidence
 and uses an LLM to generate an answer with source
 references.
 
-## Technologies
+## System Architecture
+
+DecisionTrace AI uses a Retrieval-Augmented Generation (RAG)
+pipeline to retrieve relevant meeting decisions and produce
+evidence-grounded answers.
+
+![DecisionTrace AI System Architecture](docs/DecisionTrace_AI_System_Architecture.png)
+
+### Architecture Workflow
+
+1. **Document Ingestion:** Load meeting records from TXT files.
+2. **Text Chunking:** Split documents into smaller passages.
+3. **Embeddings:** Convert passages into 384-dimensional vectors using Sentence Transformers.
+4. **Semantic Search:** Retrieve relevant passages using cosine similarity.
+5. **RAG & LLM:** Send retrieved context to an LLM through OpenRouter.
+6. **Answer Generation:** Produce answers with source references.
+7. **Streamlit Dashboard:** Display answers and supporting meeting evidence.
+
+### Technology Stack
 
 - Python
 - Sentence Transformers (all-MiniLM-L6-v2)
 - NumPy
-- OpenRouter LLM API
+- OpenRouter API
 - Streamlit
 - Python unittest
-
-## Features
-
-1. Meeting document ingestion
-2. Text chunking
-3. 384-dimensional embeddings
-4. Semantic search using cosine similarity
-5. Retrieval-Augmented Generation
-6. Grounded answers with source references
-7. Interactive Streamlit dashboard
-8. Automated unit tests
-
-## Architecture
-
-Meeting Notes (.txt)
-       |
-       v
-Document Ingestion
-       |
-       v
-Text Chunking
-       |
-       v
-Sentence Transformer Embeddings
-       |
-       v
-Semantic Search
-       |
-       v
-Relevant Meeting Evidence
-       |
-       v
-OpenRouter LLM
-       |
-       v
-Generated Answer + Sources
-       |
-       v
-Streamlit Dashboard
 
 ## Installation
 
