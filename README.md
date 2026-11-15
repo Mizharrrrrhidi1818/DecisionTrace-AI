@@ -7,11 +7,8 @@
 ![RAG](https://img.shields.io/badge/Architecture-RAG-success)
 ![Embeddings](https://img.shields.io/badge/Embeddings-SentenceTransformers-orange)
 ![Framework](https://img.shields.io/badge/Framework-Streamlit-FF4B4B)
-<<<<<<< HEAD
-![API](https://img.shields.io/badge/LLM_API-OpenRouter-purp
-=======
 ![API](https://img.shields.io/badge/LLM_API-OpenRouter-purple)
->>>>>>> origin/main
+
 
 DecisionTrace AI is a Retrieval-Augmented Generation
 (RAG) application that helps teams retrieve decisions,
